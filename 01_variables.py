@@ -27,6 +27,13 @@ print(name, surname, age, job)
 print("My name is:", name, surname, ".I'm", age, "and I work as a", job)
 
 # Inputs
-name = input("What's your name?")
-age = input("How old are you?")
+name = input("What's your name? ")
+age = input("How old are you? ")
 print(name, age)
+
+# Forzar el tipado de variable???
+address: str = "My address"
+address = 32
+address = 1.5
+address = True
+print(type(address))
